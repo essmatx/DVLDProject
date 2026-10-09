@@ -1,0 +1,351 @@
+## WORKSPACE EXECUTIVE SUMMARY (YAML)
+# Generated: 2026-07-08T22:16:40.6517825+03:00
+# Root: C:\Users\Essmat Tarek\source\repos\DVLD
+Architecture:
+  Type: Backend (C#/.NET)
+  Scale: 172 relevant source files
+  Components: 0
+  Controllers: 0
+  Models: 0
+  Services: 0
+---
+- File: DVLD.csproj
+  Preview: "<?xml version='1.0' encoding='utf-8'?> <Project ToolsVersion='15.0' xmlns='http://schemas.microsoft.com/developer/msbuild/2003'>  <Import Project='$(M..."
+- File: ClsLicenseIssuanceWorkflow\DVLD_BusinessWorkflows.csproj
+  Preview: "<?xml version='1.0' encoding='utf-8'?> <Project ToolsVersion='15.0' xmlns='http://schemas.microsoft.com/developer/msbuild/2003'>  <Import Project='$(M..."
+- File: DVLDManagePeople-PresentationLayer\DVLD_PresentationLayer.csproj
+  Preview: "<?xml version='1.0' encoding='utf-8'?> <Project ToolsVersion='15.0' xmlns='http://schemas.microsoft.com/developer/msbuild/2003'>  <Import Project='$(M..."
+- File: DVLDManageUsers\DVLDManageUsers.csproj
+  Preview: "<?xml version='1.0' encoding='utf-8'?> <Project ToolsVersion='15.0' xmlns='http://schemas.microsoft.com/developer/msbuild/2003'>  <Import Project='$(M..."
+- File: DVLD_Business\DVLD_Business.csproj
+  Preview: "<?xml version='1.0' encoding='utf-8'?> <Project ToolsVersion='15.0' xmlns='http://schemas.microsoft.com/developer/msbuild/2003'>  <Import Project='$(M..."
+- File: DVLD_BusinessWorkflows\DVLD_BusinessWorkflows.csproj
+  Preview: "<?xml version='1.0' encoding='utf-8'?> <Project ToolsVersion='15.0' xmlns='http://schemas.microsoft.com/developer/msbuild/2003'>  <Import Project='$(M..."
+- File: DVLD_DataAccess\DVLD_DataAccess.csproj
+  Preview: "<?xml version='1.0' encoding='utf-8'?> <Project ToolsVersion='15.0' xmlns='http://schemas.microsoft.com/developer/msbuild/2003'>  <Import Project='$(M..."
+- File: frmUserInfo\frmUserInfo.csproj
+  Preview: "<?xml version='1.0' encoding='utf-8'?> <Project ToolsVersion='15.0' xmlns='http://schemas.microsoft.com/developer/msbuild/2003'>  <Import Project='$(M..."
+- File: apply_dvld.ps1
+  Preview: "$ErrorActionPreference = 'Stop' $oldDir = 'C:\Users\Essmat Tarek\source\repos\DVLD' $cleanDir = 'C:\Users\Essmat Tarek\source\repos\DVLD_Clean' # Step..."
+- File: Class1.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; namespace DVLD {   public class Cl..."
+- File: DVLDProject.slnx
+  Preview: "<Solution>  <Project Path='../DVLDProject/DVLD_ManualTest/DVLD_Tests.csproj' Id='258cab59-8d6a-4499-9987-c4aaf3ef87c0' />  <Project Path='DVLDManagePe..."
+- File: testEnvironments.json
+  Preview: "{  'version': '1',  'environments': [   // See https://aka.ms/remotetesting for more details   // about how to configure remote environments.   //{   ..."
+- File: .freeair\DVLDProject_options.json
+  Preview: "{  'Unsorted': {   /* Maximum count of tokens LLM answer can contain. */   'MaxOutputTokenCount': 8192,   /* If your preferred AI answers culture is d..."
+- File: ClsLicenseIssuanceWorkflow\Class1.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; namespace ClsLicenseIssuanceWorkfl..."
+- File: ClsLicenseIssuanceWorkflow\ClsLicenseRenewalWorkflow.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; namespace DVLD_BusinessWorkflows {..."
+- File: DVLDManagePeople-PresentationLayer\frmDashboard.cs
+  Preview: "using DVLDManagePeople_PresentationLayer.Global_Classes; using System; using System.Collections.Generic; using System.ComponentModel; using System.Dat..."
+- File: DVLDManagePeople-PresentationLayer\frmDashboard.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmDashboard   {     /// <summary>     /// Required designer variable.     /// </summar..."
+- File: DVLDManagePeople-PresentationLayer\Program.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Threading.Tasks; using System.Windows.Forms; namespace DVLDManagePeopl..."
+- File: DVLDManagePeople-PresentationLayer\ucApplicationInfoForLicenseReplacementcs.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: DVLDManagePeople-PresentationLayer\ucApplicationInfoForLicenseReplacementcs.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class ucApplicationInfoForLicenseReplacementcs   {     /// <summary>     /// Required designe..."
+- File: DVLDManageUsers\Form1.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: DVLDManageUsers\Form1.Designer.cs
+  Preview: "namespace DVLDManageUsers {   partial class Form1   {     /// <summary>     /// Required designer variable.     /// </summary>     private System.Comp..."
+- File: DVLDManageUsers\Program.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Threading.Tasks; using System.Windows.Forms; namespace DVLDManageUsers..."
+- File: DVLD_Business\clsApplication.cs
+  Preview: "using DVLD_DataAccess; using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Text; using System.Threading..."
+- File: DVLD_Business\clsApplicationType.cs
+  Preview: "using DVLD_DataAccess; using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Text; using System.Threading..."
+- File: DVLD_Business\clsCountry.cs
+  Preview: "using DVLD_DataAccess; using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Text; using System.Threading..."
+- File: DVLD_Business\clsDetainedLicense.cs
+  Preview: "using DVLD_DataAccess; using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Text; using System.Threading..."
+- File: DVLD_Business\clsDriver.cs
+  Preview: "using DVLD_DataAccess; using System; using System.Collections.Generic; using System.Data; using System.Diagnostics.Eventing.Reader; using System.Linq;..."
+- File: DVLD_Business\clsInternationalLicense.cs
+  Preview: "using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Text; using System.Threading.Tasks; using DVLD_Data..."
+- File: DVLD_Business\clsLicense.cs
+  Preview: "using DVLD_DataAccess; using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Text; using System.Threading..."
+- File: DVLD_Business\clsLicenseClass.cs
+  Preview: "using DVLD_DataAccess; using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Text; using System.Threading..."
+- File: DVLD_Business\clsLocalDrivingLicenseApplication.cs
+  Preview: "using DVLD_DataAccess; using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Text; using System.Threading..."
+- File: DVLD_Business\clsPerson.cs
+  Preview: "using DVLD_DataAccess; using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Text; using System.Threading..."
+- File: DVLD_Business\clsTest.cs
+  Preview: "using DVLD_DataAccess; using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Text; using System.Threading..."
+- File: DVLD_Business\clsTestAppointment.cs
+  Preview: "using DVLD_DataAccess; using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Text; using System.Threading..."
+- File: DVLD_Business\clsTestType.cs
+  Preview: "using DVLD_DataAccess; using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Text; using System.Threading..."
+- File: DVLD_Business\clsUser.cs
+  Preview: "using DVLD_DataAccess; using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Text; using System.Threading..."
+- File: DVLD_BusinessWorkflows\ClsDetainedLicenseWorkflow.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using DVLD_Business;  namespace DV..."
+- File: DVLD_BusinessWorkflows\ClsInternationalLicenseWorkflow.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using DVLD_Business;  namespace DV..."
+- File: DVLD_BusinessWorkflows\ClsLicenseIssuanceWorkflow.cs
+  Preview: " using System; using System.Collections.Generic; using System.Data; using System.Linq; using System.Runtime.InteropServices.WindowsRuntime; using Syst..."
+- File: DVLD_BusinessWorkflows\ClsLicenseRenewalWorkflow.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using DVLD_Business;  namespace DV..."
+- File: DVLD_BusinessWorkflows\ClsLicenseReplacementWorkflow.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using DVLD_Business;  namespace DV..."
+- File: DVLD_BusinessWorkflows\ClsReplacementForDamageWorkflow.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using DVLDLicense_BusinessTier; us..."
+- File: DVLD_BusinessWorkflows\ClsReplacementForLostWorkflow.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; namespace DVLD_BusinessWorkflows {..."
+- File: DVLD_DataAccess\clsApplicationData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: DVLD_DataAccess\clsApplicationTypeData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: DVLD_DataAccess\clsCountryData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: DVLD_DataAccess\clsDataAccessSettings.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; namespace DVLD_DataAccess {   inte..."
+- File: DVLD_DataAccess\clsDetainedLicenseData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: DVLD_DataAccess\clsDriverData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: DVLD_DataAccess\clsInternationalLicenseData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: DVLD_DataAccess\clsLicenseClassData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: DVLD_DataAccess\clsLicenseData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: DVLD_DataAccess\clsLocalDrivingLicenseApplicationData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: DVLD_DataAccess\clsPersonData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: DVLD_DataAccess\clsTestAppointmentData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: DVLD_DataAccess\clsTestData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: DVLD_DataAccess\clsTestTypeData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: DVLD_DataAccess\clsUserData.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Data; using System.Da..."
+- File: frmUserInfo\Form1.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: frmUserInfo\Form1.Designer.cs
+  Preview: "namespace frmUserInfo {   partial class Form1   {     /// <summary>     /// Required designer variable.     /// </summary>     private System.Componen..."
+- File: frmUserInfo\Program.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Threading.Tasks; using System.Windows.Forms; namespace frmUserInfo {  ..."
+- File: frmUserInfo\UserControl1.cs
+  Preview: "using ClsPersonBusiness; using DVLDCountry_BusinessTier; using DVLDManagePeople_PresentationLayer; using System; using System.Collections.Generic; usi..."
+- File: frmUserInfo\UserControl1.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class UserControl1   {     /// <summary>     /// Required designer variable.     /// </summar..."
+- File: Properties\AssemblyInfo.cs
+  Preview: "using System.Reflection; using System.Runtime.CompilerServices; using System.Runtime.InteropServices; // General Information about an assembly is cont..."
+- File: ClsLicenseIssuanceWorkflow\Properties\AssemblyInfo.cs
+  Preview: "using System.Reflection; using System.Runtime.CompilerServices; using System.Runtime.InteropServices; // General Information about an assembly is cont..."
+- File: DVLDManagePeople-PresentationLayer\Global Classes\clsGlobal.cs
+  Preview: "using DVLD_Business; using System; using System.Collections.Generic; using System.IO; using System.Linq; using System.Text; using System.Threading.Tas..."
+- File: DVLDManagePeople-PresentationLayer\Global Classes\clsUtil.cs
+  Preview: "using System; using System.Collections.Generic; using System.IO; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Wind..."
+- File: DVLDManagePeople-PresentationLayer\Properties\AssemblyInfo.cs
+  Preview: "using System.Reflection; using System.Runtime.CompilerServices; using System.Runtime.InteropServices; // General Information about an assembly is cont..."
+- File: DVLDManagePeople-PresentationLayer\Properties\Resources.Designer.cs
+  Preview: "//------------------------------------------------------------------------------ // <auto-generated> //   This code was generated by a tool. //   Runt..."
+- File: DVLDManagePeople-PresentationLayer\Properties\Settings.Designer.cs
+  Preview: "//------------------------------------------------------------------------------ // <auto-generated> //   This code was generated by a tool. //   Runt..."
+- File: DVLDManageUsers\Properties\AssemblyInfo.cs
+  Preview: "using System.Reflection; using System.Runtime.CompilerServices; using System.Runtime.InteropServices; // General Information about an assembly is cont..."
+- File: DVLDManageUsers\Properties\Resources.Designer.cs
+  Preview: "//------------------------------------------------------------------------------ // <auto-generated> //   This code was generated by a tool. //   Runt..."
+- File: DVLDManageUsers\Properties\Settings.Designer.cs
+  Preview: "//------------------------------------------------------------------------------ // <auto-generated> //   This code was generated by a tool. //   Runt..."
+- File: DVLD_Business\Properties\AssemblyInfo.cs
+  Preview: "using System.Reflection; using System.Runtime.CompilerServices; using System.Runtime.InteropServices; // General Information about an assembly is cont..."
+- File: DVLD_BusinessWorkflows\Properties\AssemblyInfo.cs
+  Preview: "using System.Reflection; using System.Runtime.CompilerServices; using System.Runtime.InteropServices; // General Information about an assembly is cont..."
+- File: DVLD_DataAccess\Properties\AssemblyInfo.cs
+  Preview: "using System.Reflection; using System.Runtime.CompilerServices; using System.Runtime.InteropServices; // General Information about an assembly is cont..."
+- File: frmUserInfo\Properties\AssemblyInfo.cs
+  Preview: "using System.Reflection; using System.Runtime.CompilerServices; using System.Runtime.InteropServices; // General Information about an assembly is cont..."
+- File: frmUserInfo\Properties\Resources.Designer.cs
+  Preview: "//------------------------------------------------------------------------------ // <auto-generated> //   This code was generated by a tool. //   Runt..."
+- File: frmUserInfo\Properties\Settings.Designer.cs
+  Preview: "//------------------------------------------------------------------------------ // <auto-generated> //   This code was generated by a tool. //   Runt..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Application Types\ManageApplicationTypes.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: DVLDManagePeople-PresentationLayer\Applications\Application Types\ManageApplicationTypes.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmManageApplicationTypes   {     /// <summary>     /// Required designer variable.    ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Application Types\UpdateApplicationType.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Application Types\UpdateApplicationType.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmUpdateApplicationType   {     /// <summary>     /// Required designer variable.     ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Controls\ucApplicationBasicInfo.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Controls\ucApplicationBasicInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class ucApplicationBasicInfo   {     /// <summary>     /// Required designer variable.     //..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Controls\ucLicenseSearchFilter.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: DVLDManagePeople-PresentationLayer\Applications\Controls\ucLicenseSearchFilter.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class ucLicenseSearchFilter   {     /// <summary>     /// Required designer variable.     ///..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Detained Licenses\frmDetainLicensApp.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Detained Licenses\frmDetainLicensApp.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmDetainLicensApp   {     /// <summary>     /// Required designer variable.     /// </..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Detained Licenses\frmManageDetainedLicenses.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Detained Licenses\frmManageDetainedLicenses.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmManageDetainedLicenses   {     /// <summary>     /// Required designer variable.    ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Detained Licenses\ucDetainLicenseInfo.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: DVLDManagePeople-PresentationLayer\Applications\Detained Licenses\ucDetainLicenseInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class ucDetainLicenseInfo   {     /// <summary>     /// Required designer variable.     /// <..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Detained Licenses\ucShowDetainInfo.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Detained Licenses\ucShowDetainInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class ucShowDetainInfo   {     /// <summary>     /// Required designer variable.     /// </su..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Drivers\frmManageDrivers.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Drivers\frmManageDrivers.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmManageDrivers   {     /// <summary>     /// Required designer variable.     /// </su..."
+- File: DVLDManagePeople-PresentationLayer\Applications\International Licenses\frmInternationalDrivingLicenseInfo.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: DVLDManagePeople-PresentationLayer\Applications\International Licenses\frmInternationalDrivingLicenseInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmInternationalDrivingLicenseInfo   {     /// <summary>     /// Required designer vari..."
+- File: DVLDManagePeople-PresentationLayer\Applications\International Licenses\frmManageInternationalDrivingLicense.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\International Licenses\frmManageInternationalDrivingLicense.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmManageInternationalDrivingLicense   {     /// <summary>     /// Required designer va..."
+- File: DVLDManagePeople-PresentationLayer\Applications\International Licenses\frmNewInternationalLicenseApp.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Drawing.Text; usin..."
+- File: DVLDManagePeople-PresentationLayer\Applications\International Licenses\frmNewInternationalLicenseApp.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmNewInternationalLicenseApp   {     /// <summary>     /// Required designer variable...."
+- File: DVLDManagePeople-PresentationLayer\Applications\International Licenses\ucInternationalDrivingLicenseAppInfo.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\International Licenses\ucInternationalDrivingLicenseAppInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class ucInternationalDrivingLicenseAppInfo   {     /// <summary>     /// Required designer va..."
+- File: DVLDManagePeople-PresentationLayer\Applications\International Licenses\ucInternationalLicenseInfo.cs
+  Preview: " using DVLDManagePeople_PresentationLayer.Properties; using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\International Licenses\ucInternationalLicenseInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class ucInternationalLicenseInfo   {     /// <summary>     /// Required designer variable.   ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\frmIssueDrivingLicenseFirstTime.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\frmIssueDrivingLicenseFirstTime.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmIssueDrivingLicenseFirstTime   {     /// <summary>     /// Required designer variabl..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\frmLicenseInfo.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\frmLicenseInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmLicenseInfo   {     /// <summary>     /// Required designer variable.     /// </summ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\frmLocalDrivingLicenseApp.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Diagnostics.Eventing.Reader; using Syste..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\frmLocalDrivingLicenseApp.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmLocalDrivingLicenseApp   {     /// <summary>     /// Required designer variable.    ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\frmLocalDrivingLicenseAppInfo.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\frmLocalDrivingLicenseAppInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmLocalDrivingLicenseAppInfo   {     /// <summary>     /// Required designer variable...."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\frmNewLocalDrivingLicenseApp.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\frmNewLocalDrivingLicenseApp.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmNewLocalDrivingLicenseApp   {     /// <summary>     /// Required designer variable. ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\ucDrivingLicenseAppInfo.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Data.SqlTypes; using System.Drawing; usi..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\ucDrivingLicenseAppInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class ucDrivingLicenseAppInfo   {     /// <summary>     /// Required designer variable.     /..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\ucLicenseInfo.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Local Driving Licenses\ucLicenseInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class ucLicenseInfo   {     /// <summary>     /// Required designer variable.     /// </summa..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Login\frmChangePassword.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Login\frmChangePassword.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmChangePassword   {     /// <summary>     /// Required designer variable.     /// </s..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Login\frmLogin.cs
+  Preview: "using DVLD_Business; using DVLDManagePeople_PresentationLayer.Global_Classes; using System; using System.Collections.Generic; using System.ComponentMo..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Login\frmLogin.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmLogin   {     /// <summary>     /// Required designer variable.     /// </summary>  ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\People\frmAddEditPerson.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: DVLDManagePeople-PresentationLayer\Applications\People\frmAddEditPerson.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmAddUpdatePerson   {     /// <summary>     /// Required designer variable.     /// </..."
+- File: DVLDManagePeople-PresentationLayer\Applications\People\frmManagePeople.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: DVLDManagePeople-PresentationLayer\Applications\People\frmManagePeople.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmManagePeople : System.Windows.Forms.Form   {     /// <summary>     /// Required desi..."
+- File: DVLDManagePeople-PresentationLayer\Applications\People\frmPersonInfo.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: DVLDManagePeople-PresentationLayer\Applications\People\frmPersonInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmShowPersonInfo   {     /// <summary>     /// Required designer variable.     /// </s..."
+- File: DVLDManagePeople-PresentationLayer\Applications\People\frmPersonLicenseHistory.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: DVLDManagePeople-PresentationLayer\Applications\People\frmPersonLicenseHistory.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmPersonLicenseHistory   {     /// <summary>     /// Required designer variable.     /..."
+- File: DVLDManagePeople-PresentationLayer\Applications\People\ucAddPerson.cs
+  Preview: " using DVLD_Business; using DVLDManagePeople_PresentationLayer.Properties; using System; using System.Collections.Generic; using System.ComponentModel..."
+- File: DVLDManagePeople-PresentationLayer\Applications\People\ucAddPerson.Designer.cs
+  Preview: "using System.Windows.Forms; namespace DVLDManagePeople_PresentationLayer {   partial class ucAddPerson   {     /// <summary>     /// Required designer..."
+- File: DVLDManagePeople-PresentationLayer\Applications\People\UCPersonInfo.cs
+  Preview: "using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System...."
+- File: DVLDManagePeople-PresentationLayer\Applications\People\UCPersonInfo.Designer.cs
+  Preview: "using System.Windows.Forms; namespace DVLDManagePeople_PresentationLayer {   partial class UCPersonInfo   {     /// <summary>     /// Required designe..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Release Detained Licenses\frmReleaseDetainLicense.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Release Detained Licenses\frmReleaseDetainLicense.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmReleaseDetainLicense   {     /// <summary>     /// Required designer variable.     /..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Renew Local Driving Licenses\frmReNewLocalDrivingLicense.cs
+  Preview: "using DVLD_Business; using DVLD_BusinessWorkflows; using DVLDManagePeople_PresentationLayer.Global_Classes; using System; using System.Collections.Gen..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Renew Local Driving Licenses\frmReNewLocalDrivingLicense.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmReNewLocalDrivingLicense   {     /// <summary>     /// Required designer variable.  ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Renew Local Driving Licenses\ucRenewLocalDrivingLicense.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Renew Local Driving Licenses\ucRenewLocalDrivingLicense.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class ucRenewLocalDrivingLicense   {     /// <summary>     /// Required designer variable.   ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Replace Lost or Damged Licenses\frmLicenseReplacementForLostOrDamaged.cs
+  Preview: "using DVLD_BusinessWorkflows; using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; us..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Replace Lost or Damged Licenses\frmLicenseReplacementForLostOrDamaged.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmLicenseReplacementForLostOrDamaged   {     /// <summary>     /// Required designer v..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Replace Lost or Damged Licenses\ucApplicationInforLicenseReplacement.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Replace Lost or Damged Licenses\ucApplicationInforLicenseReplacement.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class ucApplicationInforLicenseReplacement   {     /// <summary>     /// Required designer va..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\frmManageTestAppointments .cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\frmManageTestAppointments .Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmManageTestAppointments   {     /// <summary>     /// Required designer variable.    ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\frmManageTestTypes.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\frmManageTestTypes.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmManageTestTypes   {     /// <summary>     /// Required designer variable.     /// </..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\frmScheduleTest.cs
+  Preview: " using DVLDManagePeople_PresentationLayer.Properties; using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\frmScheduleTest.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmScheduleTest   {     /// <summary>     /// Required designer variable.     /// </sum..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\frmTakeTest.cs
+  Preview: " using DVLDManagePeople_PresentationLayer.Properties; using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\frmTakeTest.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmTakeTest   {     /// <summary>     /// Required designer variable.     /// </summary..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\frmUpdateTestType.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\frmUpdateTestType.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmUpdateTestType   {     /// <summary>     /// Required designer variable.     /// </s..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\ScheduleTest.cs
+  Preview: "using DVLD_Business; using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using Syste..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\ScheduleTest.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class ScheduleTest   {     /// <summary>     /// Required designer variable.     /// </summar..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\ucRetakeTestInfo.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Tests\ucRetakeTestInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class ucRetakeTestInfo   {     /// <summary>     /// Required designer variable.     /// </su..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Users\frmAddEditUser.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Users\frmAddEditUser.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmAddEditUser   {     /// <summary>     /// Required designer variable.     /// </summ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Users\frmManageUsers.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Users\frmManageUsers.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmManageUsers   {     /// <summary>     /// Required designer variable.     /// </summ..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Users\frmUserInfo.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Users\frmUserInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class frmUserInfo   {     /// <summary>     /// Required designer variable.     /// </summary..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Users\UCLoginInfo.cs
+  Preview: " using System; using System.Collections.Generic; using System.ComponentModel; using System.Data; using System.Drawing; using System.Linq; using System..."
+- File: DVLDManagePeople-PresentationLayer\Applications\Users\UCLoginInfo.Designer.cs
+  Preview: "namespace DVLDManagePeople_PresentationLayer {   partial class UCLoginInfo   {     /// <summary>     /// Required designer variable.     /// </summary..."

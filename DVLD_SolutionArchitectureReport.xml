@@ -1,0 +1,28 @@
+<DVLD_SolutionArchitectureReport GeneratedDate="2026-08-28 05:29:51" TotalProjects="5" TotalDocumentedClasses="0">
+  <SolutionSummary>
+    <LayerBreakdown />
+  </SolutionSummary>
+  <DependencyGraph>
+    <ProjectDependency Project="DVLDManagePeople-PresentationLayer" DependsOn="DVLD_Business, DVLD_BusinessWorkflows, DVLD_Shared" />
+    <ProjectDependency Project="DVLD_Business" DependsOn="DVLD_DataAccess, DVLD_Shared" />
+    <ProjectDependency Project="DVLD_BusinessWorkflows" DependsOn="DVLD_Business" />
+    <ProjectDependency Project="DVLD_DataAccess" DependsOn="DVLD_Shared" />
+  </DependencyGraph>
+  <Projects>
+    <Project AssemblyName="DVLDManagePeople-PresentationLayer" Layer="DVLDManagePeople-PresentationLayer" DocumentedClasses="0">
+      <Classes />
+    </Project>
+    <Project AssemblyName="DVLD_Business" Layer="DVLD_Business" DocumentedClasses="0">
+      <Classes />
+    </Project>
+    <Project AssemblyName="DVLD_BusinessWorkflows" Layer="DVLD_BusinessWorkflows" DocumentedClasses="0">
+      <Classes />
+    </Project>
+    <Project AssemblyName="DVLD_DataAccess" Layer="DVLD_DataAccess" DocumentedClasses="0">
+      <Classes />
+    </Project>
+    <Project AssemblyName="DVLD_Shared" Layer="DVLD_Shared" DocumentedClasses="0">
+      <Classes />
+    </Project>
+  </Projects>
+</DVLD_SolutionArchitectureReport>

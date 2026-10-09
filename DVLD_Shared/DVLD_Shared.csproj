@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B21E87CD-C84F-4CDC-80D1-9015D85D7F0C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DVLD_Shared</RootNamespace>
+    <AssemblyName>DVLD_Shared</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\clsDocAttributes.cs" />
+    <Compile Include="clsDocGenerator.cs" />
+    <Compile Include="clsEventLogger.cs" />
+    <Compile Include="clsMarkdownDocExporter.cs" />
+    <Compile Include="clsSolutionArchitectureReport.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="images\AddNewUserForm.png" />
+    <Content Include="images\AddNewUserForm2.png" />
+    <Content Include="images\AddUpdatePersonForm.png" />
+    <Content Include="images\AnalyticsForm.png" />
+    <Content Include="images\AppInfoForm.png" />
+    <Content Include="images\ChangePassFrom.png" />
+    <Content Include="images\DashBoardForm.png" />
+    <Content Include="images\DetainLicenseForm.png" />
+    <Content Include="images\DriverIntLicenseInfoFrom.png" />
+    <Content Include="images\DriverLicenseInfoFrom.png" />
+    <Content Include="images\DriverLicenseInfoFrom2.png" />
+    <Content Include="images\IntLicenseAppForm.png" />
+    <Content Include="images\IntLicenseAppForm2.png" />
+    <Content Include="images\IssueLicenseForm.png" />
+    <Content Include="images\LicenseHistoyForm.png" />
+    <Content Include="images\LogInForm.png" />
+    <Content Include="images\ManageAppTypes.png" />
+    <Content Include="images\ManageDriverForm.png" />
+    <Content Include="images\ManageLocalDrivngLicenseAppForm.png" />
+    <Content Include="images\ManagePeopleForm.png" />
+    <Content Include="images\ManageTestTypesForm.png" />
+    <Content Include="images\MangeDetainLicenseForm.png" />
+    <Content Include="images\MangeIntLicenseAppForm.png" />
+    <Content Include="images\MangeUsers.png" />
+    <Content Include="images\NewLocaDrivingLicenseAppForm.png" />
+    <Content Include="images\PersonInfo.png" />
+    <Content Include="images\ReleseDaitendForm.png" />
+    <Content Include="images\RenwLicenseAppForm.png" />
+    <Content Include="images\RenwLicenseAppForm2.png" />
+    <Content Include="images\ReplaceLicenseForm.png" />
+    <Content Include="images\ReplaceLicenseForm2.png" />
+    <Content Include="images\ScheduledTestForm.png" />
+    <Content Include="images\SchedulTestForm.png" />
+    <Content Include="images\SchedulTestForm2.png" />
+    <Content Include="images\TestFrom.png" />
+    <Content Include="images\UpdateAppTypesForm.png" />
+    <Content Include="images\UpdateTestForm.png" />
+    <Content Include="images\UsersInfoForm.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

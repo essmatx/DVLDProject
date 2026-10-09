@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="DVLDManagePeople-PresentationLayer/DVLD_PresentationLayer.csproj" Id="537c094b-da9e-4dcc-b439-7d6888072688" />
+  <Project Path="DVLD_Business/DVLD_Business.csproj" Id="97caafe1-7ccc-4569-8fa7-3d695146ba90" />
+  <Project Path="DVLD_BusinessWorkflows/DVLD_BusinessWorkflows.csproj" Id="21fc0cf8-68e7-4359-916d-6bad7519894d" />
+  <Project Path="DVLD_DataAccess/DVLD_DataAccess.csproj" Id="dc1bec94-adfa-491d-bc0c-9da96d81f557" />
+  <Project Path="DVLD_Shared/DVLD_Shared.csproj" Id="b21e87cd-c84f-4cdc-80d1-9015d85d7f0c" />
+  <Project Path="Export_Architecture_Report_To_GitHub_Readme()/Export_Architecture_Report_To_GitHub_Readme().csproj" Id="6922ee7d-db37-4c2b-b222-d83855e51461" />
+  <Project Path="TestProject2/DVLD_UintTest.csproj" Id="d9517a8a-f41c-4aaf-a06e-edbd66814159" />
+</Solution>
